@@ -12,6 +12,9 @@
 
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
 	<header class="header clear">
@@ -27,9 +30,9 @@
 	<nav class="nav clear">
 		<a href="#"> Home </a>
 		<a href="#"> Encyclopedia </a>
-		<a href="#"> About </a>
-		<a href="#"> Contact </a>
-		<input type="text" placeholder="Search">
+		<a href="#about"> About </a>
+		<a href="#contact"> Contact </a>
+		<!-- <input type="text" placeholder="Search"> -->
 	</nav>
 	<main class="main">
 		<div class="feature">
@@ -49,7 +52,27 @@
 
 			</div>
 		</div>
-		<div class="about">
+		<div class="gallery clear">
+			<h2> View all flowers in the encyclopedia!</h2>
+			<a href="#" class="go-to-encyclopedia"> Go to Encyclopedia </a>
+			<div class="gallery-item">
+				<img src="assets/images/lotus.jpg">
+				<p> Lotus </p>
+			</div>
+			<div class="gallery-item">
+				<img src="assets/images/daisy.jpg">
+				<p> Daisy </p>
+			</div>
+			<div class="gallery-item">
+				<img src="assets/images/hyacinth.jpg">
+				<p> Hyacinth </p>
+			</div>
+			<div class="gallery-item">
+				<img src="assets/images/azalea.jpg">
+				<p> Azalea </p>
+			</div>
+		</div>
+		<div class="about" id="about">
 			
 			<h2> About </h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -60,29 +83,17 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 		</div>
-		<div class="gallery clear">
-			<div class="gallery-item">
-				<img src="assets/images/lotus.jpg">
-				<p></p>
-			</div>
-			<div class="gallery-item">
-				<img src="assets/images/daisy.jpg">
-				<p></p>
-			</div>
-			<div class="gallery-item">
-				<img src="assets/images/hyacinth.jpg">
-				<p></p>
-			</div>
-			<div class="gallery-item">
-				<img src="assets/images/azalea.jpg">
-				<p></p>
-			</div>
-		</div>
-		<div class="contact">
+		<div class="contact" id="contact">
 			
 		</div>
 	</main>
 	<footer class="footer">
-		<p>Copyright 2018</p>
+		<div class="socmed">
+			<i class="fab fa-facebook-square"></i><!-- 
+			<a href=""><img src="" alt="Facebook"></a>
+			<a href=""><img src="" alt="Twitter"></a>
+			<a href=""><img src="" alt="Instagram"></a> -->
+		</div>
+		<p>Copyright &copy; 2018</p>
 	</footer>
 </body>
